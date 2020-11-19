@@ -19,4 +19,30 @@
     padding: 9px 25px;
     cursor: pointer;
 }
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
 
+.category-1,.category-2,.category-3{
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.category-1{
+    background-image: linear-gradient(yellow,orange);
+}
+.category-2{
+    background-image: linear-gradient(#FF5898,#FF136F);
+}
+.category-3{
+    background-image: linear-gradient(skyblue,blue);
+}
+.contact-card h1{
+    text-align: center;
+}
+#subscribe{
+    background-color: #fceae8;
+    height: 300px;
+}
